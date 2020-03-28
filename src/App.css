@@ -1,0 +1,279 @@
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+  }
+
+  .navLink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    list-style: none;
+    width: 30%;
+  }
+
+  .box {
+    box-shadow: dimgray;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+  }
+
+  .container {
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+
+  .article {
+    width: 50%;
+    border-left-style: hidden;
+    padding-left: 0px;
+    display: table-column;
+    color: white;
+    shape-outside: content-box;
+  }
+
+  .searchBar {
+    width: 15%;
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 12pt;
+    border-radius: 1.5em;
+    border-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .product {
+    width: 30%;
+    height: 40%;
+    border-style: double;
+    padding: 20px;
+    margin: 15px;
+    display: none;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+  }
+
+  .btn {
+    margin: 5px;
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border: none;
+  }
+
+.foodImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 1.2em;
+  border-style: solid;
+  border-collapse: separate;
+  border-color: whitesmoke;
+  float: left;
+}
+
+.productDetails {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 11em;
+  padding-top: -10px;
+}
+
+.proLikes {
+  color: rgba(51, 206, 245, 0.904)
+}
+
+p, h2 {
+  margin: 10px;
+}
+
+.headerContainer {
+  margin-bottom: 15px;
+  position: static;
+}
+
+.price {
+  font-weight: bolder;
+  font-style: oblique;
+  color: rgb(120, 253, 11);
+}
+
+body {
+  background-color: rgb(36, 33, 33);
+  background-image: Linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 1)), url('./diary.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: ;
+  opacity: 1;
+  position: relative;
+}
+
+.footContainer {
+	bottom: auto;
+  position: relative;
+  top: auto;
+  padding: 30px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.tile-row {
+	display: flex;
+	margin-bottom: 0;
+	bottom: 0;
+	position: auto;
+}
+
+.tile-row > * {
+	flex: 1;
+	margin-bottom: 0;
+}
+
+.tile {
+
+	border-radius: 1em;
+	font-size: 15pt;
+	color: black;
+	padding: 2em;
+	margin: 0;
+}
+
+.more {
+	color: rgb(0, 0, 0);
+	padding: 0.2em;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.paraTile {
+  text-rendering: geometricPrecision;
+  text-align: center;
+}
+
+h4 {
+  text-align: center  ;
+  font-weight: bolder;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	padding-bottom: 20em;
+	font-size: 12pt;
+}
+
+a {
+	color: black;
+  text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	padding-bottom: 20em;
+	font-size: 12pt;
+}
+
+.footerB {
+	position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: red;
+	  color: white;
+	  text-align: center;
+}
+
+.profile {
+  color: white;
+  float: right;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.profilePicture {
+  border-radius: 5em;
+  border-style: solid;
+  text-align: center;
+  width: 10em;
+  height: 10em;
+  display: flex;
+  margin: 0 auto;
+}
+.about {
+  font-style: italic;
+  text-align: center;
+}
+
+.aboutBtn {
+  padding: 10px;
+  margin-left: 10px;
+  color: darkturquoise;
+  border-bottom: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 20px;
+}
+
+.myTitle {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.myName {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.articleHeader {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.secPara {
+  padding-top: 20px;
+}
+
+p {
+  shape-outside: circle(50%, 50%, 50%);
+}
+
+.linkedIn {
+  padding: 10px;
+  background-color: rgb(0, 147, 184);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.rights {
+  text-align: center;
+  font-size: 12pt;
+}
+
+.listContacts {
+  list-style: none;
+  padding-left: 30%;
+}
+
+.logo {
+  width: 5em;
+  height: 4em;
+}

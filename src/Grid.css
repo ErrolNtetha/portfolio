@@ -1,0 +1,22 @@
+.statContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [head-col-start] 180px
+     [content-col-start] 180px [content-col-mid] 180px
+     [head-col-end];
+    grid-template-rows: [head-row-start] auto [head-row-end]
+    auto [content-row-end] auto [footer-row-end];
+    }
+
+.sidebar {
+     grid-column: head-col-start / content-col-start;
+     grid-row: head-row-end / content-row-end;
+     color: white;
+ }
+     
+     
+.content {
+     grid-column: content-col-start / head-col-end;
+     grid-row: head-row-end / content-row-end;   
+     color: white;
+ }
