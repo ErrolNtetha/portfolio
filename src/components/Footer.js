@@ -20,11 +20,11 @@ export default class Footer extends Component {
 						<p>
 							
 							<ul className='listContacts'>
-								<li> <a href='https://facebook.com'> <FaFacebook /> | Facebook </a> </li>
-								<li> <a href='https://linkedin.com'> <FaLinkedin /> | LinkedIn </a> </li>
-								<li> <a href='t.me'> <FaTelegram /> | Telegram </a> </li>
-								<li> <a href='https://github.com'> <FaGithub /> | GitHub </a> </li>
-								<li> <a href='WhatsApp'> <FaWhatsapp className='what' /> | WhatsApp </a> </li>
+								<li> <a href='https://facebook.com'> <FaFacebook />  Facebook </a> </li>
+								<li> <a href='https://linkedin.com'> <FaLinkedin />  LinkedIn </a> </li>
+								<li> <a href='t.me'> <FaTelegram />  Telegram </a> </li>
+								<li> <a href='https://github.com'> <FaGithub />  GitHub </a> </li>
+								<li> <a href='WhatsApp'> <FaWhatsapp className='what' />  WhatsApp </a> </li>
 							</ul>
 						</p>
 						

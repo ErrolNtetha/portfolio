@@ -1,49 +1,40 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { FaSearch } from 'react-icons/fa'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { FaSearch } from 'react-icons/fa';
+import Blogs from './Blogs';
 import '../App.css'
 
-function isSearched(searchTerm) {
-    return function(item) {
-        return item.title.toLowerCase().includes(searchTerm.toLowerCase()) // Returns a bolean value
-    }
-}
 
 export default class Header extends Component {
-    constructor() {
-        super()
-
-        this.state = {
-            searchTerm: '',
-        }
-    }
-
-    onChangeHandler = (event) => {
-        this.setState({ searchTerm: event.target.value })   
-     } 
-
-     onChangeStyle = (req, res) => {
-             // Change color
-     }
 
     render() {
         return (
-            <div className='headerContainer'>
-                <Router>
-                    <nav className='header'>
-                        <img className='logo' src='./not.png' />
-                        <h2 className='myName'> Mphumeleli E. Ntetha </h2>
-                        <ul className='navLink'  onClick={this.onChangeStyle}>
-                            <li>Home</li>
-                            <li>Blogs</li>
-                            <li>Services</li>
-                            <li>News</li>
-                            <li>Contact</li>
-                        </ul>
-                        <input onChange={this.onChangeHandler} className='searchBar' type='text' placeholder='Search...' />
-                    </nav>
-                </Router>
-            </div>
+            <Router>
+                <div className='headerContainer'>
+                     <nav className='header'>
+                          <img className='logo' src='./not.png' />
+                            <h2 className='myName'> Mphumeleli E. Ntetha </h2>
+                                <ul className='navLink'>
+                                    <Link to='/'>
+                                        <li> Home </li>
+                                    </Link>
+                                    <Link to='/blogs'>
+                                        <li> Blogs </li>
+                                    </Link>
+                                    <Link to='services'>
+                                        <li> Services </li>
+                                    </Link>
+                                    <Link to='about'>
+                                        <li> About </li>
+                                    </Link>
+                                    <Link to='contact'>
+                                        <li> Contact </li>
+                                    </Link>
+                                </ul>
+                            <input className='searchBar' type='text' placeholder='Search...' />
+                     </nav>
+                </div>
+            </Router>
         )
     }
 }
