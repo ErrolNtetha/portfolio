@@ -11,7 +11,7 @@ export default class Footer extends Component {
 					<div className='tile'>
 						<h4> Mission </h4>
 						<p className='paraTile'>
-							My mission is to connect businesses and custormers or clients through mordern technology which brings the world endless possibilities.
+							My mission is to connect businesses and custormers or clients through mordern technology which brings the world of endless possibilities.
 
 						</p>
 					</div>
@@ -20,11 +20,11 @@ export default class Footer extends Component {
 						<p>
 							
 							<ul className='listContacts'>
-								<li> <a href='https://facebook.com'> <FaFacebook />  Facebook </a> </li>
-								<li> <a href='https://linkedin.com'> <FaLinkedin />  LinkedIn </a> </li>
-								<li> <a href='t.me'> <FaTelegram />  Telegram </a> </li>
-								<li> <a href='https://github.com'> <FaGithub />  GitHub </a> </li>
-								<li> <a href='WhatsApp'> <FaWhatsapp className='what' />  WhatsApp </a> </li>
+								<li> <a href='https://facebook.com'> </a> <FaFacebook />  Facebook  </li>
+								<li> <a href='https://linkedin.com'>  </a> <FaLinkedin />  LinkedIn </li>
+								<li> <a href='t.me'> </a> <FaTelegram />  Telegram </li>
+								<li> <a href='https://github.com'>  </a> <FaGithub />  GitHub </li>
+								<li> <a href='WhatsApp'> </a> <FaWhatsapp className='what' />  WhatsApp </li>
 							</ul>
 						</p>
 						
@@ -32,8 +32,8 @@ export default class Footer extends Component {
 					<div className='tile'>
 						<h4> Value </h4>
 						<p className='paraTile'>
-						  I value myself, my work and always committed to everything that i do.  
-						  I am of a debious value in the mordern world.
+						  I value myself, my work and always committed to everything that I do.  
+						  I am of a great value in the mordern world.
 						</p>
 					</div>
 				</div>
