@@ -11,8 +11,8 @@ export default class Footer extends Component {
 					<div className='tile'>
 						<h4> Mission </h4>
 						<p className='paraTile'>
-							My mission is to connect businesses and custormers or clients through mordern technology which brings the world of endless possibilities.
-
+							My mission is to connect businesses and custormers or clients through mordern 
+							technology which brings the world of endless possibilities.
 						</p>
 					</div>
 					<div className='tile'>
