@@ -16,15 +16,28 @@ export default class Footer extends Component {
 						</p>
 					</div>
 					<div className='tile'>
-						<h4> Contact Me </h4>
+						<h4> Social </h4>
 						<p>
 							
 							<ul className='listContacts'>
 								<li> <a href='https://facebook.com'> </a> <FaFacebook />  Facebook  </li>
 								<li> <a href='https://linkedin.com'>  </a> <FaLinkedin />  LinkedIn </li>
 								<li> <a href='t.me'> </a> <FaTelegram />  Telegram </li>
-								<li> <a href='https://github.com'>  </a> <FaGithub />  GitHub </li>
+								<li> <a href='https://github.com/ErrolNtetha'>  </a> <FaGithub />  GitHub </li>
 								<li> <a href='WhatsApp'> </a> <FaWhatsapp className='what' />  WhatsApp </li>
+							</ul>
+						</p>
+						
+					</div>
+					<div className='tile'>
+						<h4> Resources </h4>
+						<p>
+							<ul className='listContacts'>
+								<li> <a href='https://facebook.com'> </a> Projects  </li>
+								<li> <a href='https://linkedin.com'>  </a> Open Source </li>
+								<li> <a href='t.me'> </a> Downlaods </li>
+								<li> <a href='https://github.com'>  </a> Affiliates </li>
+								<li> <a href='WhatsApp'> </a> WhatsApp </li>
 							</ul>
 						</p>
 						
@@ -37,7 +50,7 @@ export default class Footer extends Component {
 						</p>
 					</div>
 				</div>
-				<div className='rights'> Copyright © 2020 Mphumeleli Ntetha. All Rights Reserved.  </div>
+				<div className='rights'> Copyright © 2020, Mphumeleli Ntetha. All Rights Reserved.  </div>
 			</div> 
 		)
 	}
