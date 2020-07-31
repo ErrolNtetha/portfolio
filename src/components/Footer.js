@@ -11,7 +11,7 @@ export default class Footer extends Component {
 					<div className='tile'>
 						<h4> Mission </h4>
 						<p className='paraTile'>
-							My mission is to connect businesses and custormers or clients through mordern 
+							My mission is to make life easier through mordern world of 
 							technology which brings the world of endless possibilities.
 						</p>
 					</div>
@@ -37,7 +37,7 @@ export default class Footer extends Component {
 								<li> <a href='https://linkedin.com'>  </a> Open Source </li>
 								<li> <a href='t.me'> </a> Downlaods </li>
 								<li> <a href='https://github.com'>  </a> Affiliates </li>
-								<li> <a href='WhatsApp'> </a> WhatsApp </li>
+								<li> <a href='WhatsApp'> </a> Samples </li>
 							</ul>
 						</p>
 						
@@ -46,7 +46,7 @@ export default class Footer extends Component {
 						<h4> Value </h4>
 						<p className='paraTile'>
 						  I value myself, my work and always committed to everything that I do.  
-						  I am of a great value in the mordern world.
+						  I am always expanding to my own capabilities and with great enthusiasm.
 						</p>
 					</div>
 				</div>
