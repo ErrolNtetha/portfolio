@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@material-ui/core";
 import '../App.css';
+import { FaPhone } from 'react-icons/fa';
 
 
 export default class Header extends Component {
@@ -37,8 +38,8 @@ export default class Header extends Component {
                                         <Link to='contact'> Contact </Link>
                                     </li>
                                 </ul>
-                                <div>
-                                    <Button>Primary</Button>
+                                <div className="cont">
+                                    {/* {/* <p> 079 531 2272 <FaPhone /></p>  */}
                                     <Button variant="contained" onClick={this.toggleChange} color="primary" className="req"> Get Request </Button>
                                 </div>
                      </nav>

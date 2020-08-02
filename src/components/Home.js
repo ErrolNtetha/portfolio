@@ -10,8 +10,8 @@ export default class Body extends Component {
                 <div className='article'>
                     <h1 className='articleHeader'> About me...  </h1>
                         <p> 
-                           I am a fulltime student in Business Administration (BA), and also happens to pursue a career in Software Development as a side hustling.
-                           My focus is mainly in MERN Stack development at the moment. I have a huge passion and drive in technology industry.
+                           I am a fulltime student in Business Administration (BA) at the Durban University of Technology, and also happens to pursue a career in Software Development as a side hustling.
+                           My focus is in MERN Stack development at the moment. I have a huge passion and drive in technology industry.
                         </p>
                     {/* <h1 className='articleHeader'> What i do... </h1> */}
                     <div className='secPara'>

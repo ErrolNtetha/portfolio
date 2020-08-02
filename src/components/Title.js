@@ -6,7 +6,7 @@ export default class About extends Component {
             <div className='profile'>
                 <img className='profilePicture' alt="myPic" src='./profile.jpg' />
                 <h2 className='myTitle'> Mphumeleli Errol Ntetha </h2>
-                <p className='about'> "Software Developer" </p>
+                <p className='about'> "ReactJS Developer" </p>
             </div>
         )
     }

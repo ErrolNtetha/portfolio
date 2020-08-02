@@ -20,18 +20,3 @@
      grid-row: head-row-end / content-row-end;   
      color: white;
  }
-
- .imageTitle {
-     height: 200px;
-     width: 250px;
-     border-radius: .5em;
- }
-
- .servContainer {
-     display: grid;
-     grid-template-columns: 70% 30% 30%;
- }
-
- .servContainer > div {
-    background: #fff;
- }

@@ -1,22 +1,32 @@
 import React, { Component } from 'react';
-import service from "./data.js"
+import "../App.css"
+import { service } from "./data.js"
 
 export default class About extends Component {
     render() {
-        return (
-            <div classsName="servContainer">
-                        <h2> This is a service page </h2>
 
-                { service.map((item, id) => {
-                    return (
-                        <div id={item.objectID} className="serviceItem"> 
-                            <img src={item.image} alt="computer" className="imageTitle" />
-                            <h3> {item.title} </h3>
-                            <p> {item.descr} </p>
-                        </div>
-                    )
-                }) }
-            </div>
+        const style = {
+            padding: ".5em",
+        }
+
+        return (
+            <>
+                <h2 className="servTitle"> Services </h2>
+                <hr className="line" />
+                <div className="servContainer">
+                    { service.map((item, id) => {
+                        return (
+                            <div id={item.objectID} className="serviceItem"> 
+                                <img src={item.image} alt="computer" className="imageTitle" />                            
+                                <div className="details">
+                                        <h3 style={style}> {item.title} </h3>
+                                        <p> {item.descr} </p>
+                                </div>
+                            </div>
+                        )
+                    }) }
+                </div>
+            </>
         )
     }
 }

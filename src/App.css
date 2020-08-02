@@ -96,7 +96,6 @@ p, h2 {
 
 .headerContainer {
   margin-bottom: 15px;
-  position: static;
 }
 
 
@@ -285,4 +284,127 @@ p {
   background-color: #fff;
   color: #fff;
   margin: 0 auto; 
+}
+
+.contactContainer {
+  background: white;
+  margin: 5em auto;
+  width: 400px;
+  border-radius: 10px;
+  height: min-content;
+  padding: 10px;
+  box-shadow: 15px 15px 15px 15px;
+  box-decoration-break: slice;
+}
+
+.divider {
+  color: black;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: black;
+}
+
+.enquiryText {
+  text-align: center;
+  font-size: 18pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.textarea {
+  width: 90%;
+  height: 80px;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+  border-color: black;
+  border-radius: .5em;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+.cont {
+  display: flex;
+}
+
+.submitBTN {
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: 16px;
+  border-radius: .5em;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border-style: none;
+  font-style: normal;
+  margin: 1em auto; 
+}
+
+.submitBTN :hover { cursor: pointer }
+
+.inputGroup {
+  margin: 5px;
+  font-size: 10pt;
+  border-style: none none solid none;
+  border-color: black;
+  width: 90%;
+}
+
+.inputWrapper {
+  display: grid;
+}
+
+.inputItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  -moz-box-align: center;
+}
+
+.servContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 10px;
+  margin: 1.5em;
+}
+
+.imageTitle {
+  height: 200px;
+  width: 430px;
+  text-align: center;
+  margin: 0 auto;
+  justify-items: stretch;
+}
+
+.serviceItem {
+  background: white;
+  border-radius: 5px;
+  opacity: initial;
+}
+
+.serviceItem :hover {
+  cursor: pointer;
+}
+
+.line {
+  color: white;
+  width: 20%;
+  border-radius: 2em;
+  height: 5px;
+  border-style: none;
+  background-color: rgb(155, 1, 121);
+}
+
+.selectOption {
+  width: 100px;
+}
+
+.servTitle {
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+  margin: 0.2em;
+  font-family: 'Times New Roman', Times, serif;
+  
 }

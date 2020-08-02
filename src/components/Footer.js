@@ -38,6 +38,7 @@ export default class Footer extends Component {
 								<li> <a href='t.me'> </a> Downlaods </li>
 								<li> <a href='https://github.com'>  </a> Affiliates </li>
 								<li> <a href='WhatsApp'> </a> Samples </li>
+								<li> <a href='https://newsletter.com'> </a> Newsletter </li>
 							</ul>
 						</p>
 						
