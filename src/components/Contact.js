@@ -14,7 +14,7 @@ export default class About extends Component {
         e.preventDefault()
         
         this.setState({
-            firstname: e.target.fistname.value,
+            firstname: e.target.value,
             lastname: e.target.value,
         })
 
@@ -41,8 +41,8 @@ export default class About extends Component {
                 <form>
                     <div className="inputWrapper">
                         <div className="inputItems">
-                            <input type="text" onChange={this.onSubmitHandler} className="inputGroup" placeholder="First Names" />
-                            <input type="text" onChange={this.onSubmitHandler} className="inputGroup" placeholder="Last Name" />
+                            <input type="text" name="firstName" onChange={this.onSubmitHandler} className="inputGroup" placeholder="First Names" />
+                            <input type="text" name="firstName" onChange={this.onSubmitHandler} className="inputGroup" placeholder="Last Name" />
                             <input type="email" className="inputGroup" placeholder="Email Address" />
                             <input type="telephone" className="inputGroup" placeholder="Phone Number" />
                         </div>

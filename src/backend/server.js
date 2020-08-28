@@ -1,20 +1,24 @@
-const express = require('express');
-const env = require('dotenv');
+const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
-const route = express.Route();
+require("dotenv").config();
 
-const port = process.env.PORT || 5000 // Create a port number on 5000
+app.use(express.json());
 
-app.get('/', function(req, res) {
-    res.send('Hello world')
-})
+const url = process.env.ATLAS_DB;
+mongoose.connect(url, { useNewUrlParser: true, useCreateIndex: true });
+const connection = mongoose.connection;
 
-app.get('/blogs', function(req, res, err) {
-    res.render('./components/About')
-})
+connection.once("open", err => {
+  err
+    ? console.log("Error connecting to the MongoDB Atlas database...")
+    : console.log("Connection to MongoDB Atlas successful...");
+});
 
-// Listen to the port
-app.listen(port, function(err) {
-    if(err) console.log("Could not start the server: " + err) 
-    console.log(`Connection to localhost has been established on port http://localhost:${port}`)
-})
+// Port to listen to:
+const port = process.env.PORT || 5000;
+
+app.listen(port, function (err) {
+  if (err) console.log("Could not start the server: " + err);
+  console.log(`Connection established on http://localhost:${port}/`);
+});
