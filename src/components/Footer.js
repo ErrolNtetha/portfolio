@@ -5,7 +5,6 @@ import {
   FaTelegram,
   FaGithub,
   FaWhatsapp,
-  FaSearch,
 } from "react-icons/fa";
 import "../App.css";
 

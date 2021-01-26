@@ -10,8 +10,9 @@ export default class About extends Component {
 
     return (
       <>
-        <h2 className="servTitle"> Services </h2>
-        <hr className="line" />
+        <section className="sectionHeader">
+          <h2 className="servTitle"> Graphic Design </h2>
+        </section>
         <div className="servContainer">
           {service.map((item, id) => {
             return (

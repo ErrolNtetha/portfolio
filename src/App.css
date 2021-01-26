@@ -1,96 +1,110 @@
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    min-height: 10vh;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-  }
-
-  .req {
-    border-bottom: 15px;
-    border-style: solid;
-    border-color: white;
-  }
-
-  .navLink {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 5vh;
-    list-style: none;
-    width: 30%;
-  }
-
-
-  li:hover {
-    color: #ff4500;
-  }
-
-  .box {
-    box-shadow: dimgray;
-    width: 30%;
-    height: 20%;
-    border-style: solid;
-  }
-
-  .container {
-    margin: 10px;
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    padding-bottom: 60px;
-  }
-
-  .article {
-    width: 50%;
-    border-left-style: hidden;
-    padding-left: 0px;
-    display: table-column;
-    color: white;
-    shape-outside: content-box;
-  }
-
-  .searchBar {
-    width: 15%;
-    padding: 10px;
-    padding-left: 20px;
-    font-weight: 12pt;
-    border-radius: 1.5em;
-    border-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .product {
-    width: 30%;
-    height: 40%;
-    border-style: double;
-    padding: 20px;
-    margin: 15px;
-    display: none;
-    background-color:black;
-    color: white;
-    border-radius: 20px;
-    border-color: white;
-  }
-
-  .btn {
-    margin: 5px;
-    padding: 10px;
-    width: 70px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    border: none;
-  }
-
-.proLikes {
-  color: rgba(51, 206, 245, 0.904)
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  min-height: 10vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-p, h2 {
+.navLink #id {
+  background-color: red;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
+
+.req {
+  border-bottom: 15px;
+  border-style: solid;
+  border-color: white;
+}
+
+.navLink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  list-style: none;
+  width: 30%;
+}
+
+li:hover {
+  color: #ff4500;
+}
+
+.box {
+  box-shadow: dimgray;
+  width: 30%;
+  height: 20%;
+  border-style: solid;
+}
+
+.container {
+  background-image: Linear-gradient(
+      rgba(0, 0, 0, 0.719),
+      rgba(0, 0, 0, 0.932),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./diary.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.article {
+  width: 50%;
+  border-left-style: hidden;
+  padding-left: 0px;
+  display: table-column;
+  color: white;
+  shape-outside: content-box;
+}
+
+.searchBar {
+  width: 15%;
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: 12pt;
+  border-radius: 1.5em;
+  border-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.product {
+  width: 30%;
+  height: 40%;
+  border-style: double;
+  padding: 20px;
+  margin: 15px;
+  display: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border-color: white;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+}
+
+.proLikes {
+  color: rgba(51, 206, 245, 0.904);
+}
+
+p,
+h2 {
   margin: 10px;
 }
 
@@ -98,53 +112,147 @@ p, h2 {
   margin-bottom: 15px;
 }
 
-
 body {
-  background-color: rgb(36, 33, 33);
-  background-image: Linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 1)), url('./diary.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color:#000;
+  
   padding-bottom: ;
   opacity: 1;
   position: relative;
 }
 
 .footContainer {
-	bottom: auto;
+  bottom: auto;
   position: relative;
   top: auto;
   padding: 30px 30px 10px 30px;
-	margin: 0 auto;
-	background-color: white;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.nav :active {
+  border-bottom: chartreuse;
+  border-bottom-style: solid;
+}
+
+.nav :hover {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  padding-bottom: 5px;
+  border-width: 3px;
+}
+
+.getRequest {
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  text-emphasis: bold;
+  height: 40px;
+  width: 120px;
+  border-style: solid;
+  border-color: white;
+
+  font-weight: bold;
+}
+
+.getRequest:hover {
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+  border-width: 2px;
+  border-style: none;
 }
 
 .tile-row {
-	display: flex;
-	margin-bottom: 0;
-	bottom: 0;
-	position: auto;
+  display: flex;
+  margin-bottom: 0;
+  bottom: 0;
+  position: auto;
 }
 
 .tile-row > * {
-	flex: 1;
-	margin-bottom: 0;
+  flex: 1;
+  margin-bottom: 0;
 }
 
 .tile {
+  border-radius: 1em;
+  font-size: 15pt;
+  color: black;
+  padding: 2em;
+  margin: 0;
+}
 
-	border-radius: 1em;
-	font-size: 15pt;
-	color: black;
-	padding: 2em;
-	margin: 0;
+.article .p1 {
+  position: relative;
+  animation-name: slideIn;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+/* CSS animations */
+.article .p2 {
+  position: relative;
+  animation-name: slideInFromRight;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    right: 800px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    left: 800px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.articleHeader {
+  position: relative;
+  animation-fill-mode: forwards;
+  animation: header;
+  animation-duration: 2s;
+  padding-left: 5px;
+}
+
+@keyframes header {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.profile {
+  display: relative;
+  animation: fromTop;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromTop {
+  0% {
+    left: -800px;
+  }
+  100% {
+    left: 0;
+  }
 }
 
 .more {
-	color: rgb(0, 0, 0);
-	padding: 0.2em;
-	text-decoration: none;
-	border-bottom: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 0.2em;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .paraTile {
@@ -153,21 +261,21 @@ body {
 }
 
 h4 {
-  text-align: center  ;
+  text-align: center;
   font-weight: bolder;
 }
 
 .footer {
-	text-align: center;
-	color: white;
-	padding-bottom: 20em;
-	font-size: 12pt;
+  text-align: center;
+  color: white;
+  padding-bottom: 20em;
+  font-size: 12pt;
 }
 
 a {
-	color: #fff;
+  color: #fff;
   text-decoration: none;
-  padding: 10px5
+  padding: 10px5;
 }
 
 a:hover {
@@ -175,28 +283,42 @@ a:hover {
 }
 
 .footer {
-	text-align: center;
-	color: white;
-	padding-bottom: 20em;
-	font-size: 12pt;
+  text-align: center;
+  color: white;
+  padding-bottom: 20em;
+  font-size: 12pt;
 }
 
 .footerB {
-	position: fixed;
-	  left: 0;
-	  bottom: 0;
-	  width: 100%;
-	  background-color: red;
-	  color: white;
-	  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.skillContainer {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  margin: 50px;
+}
+
+.nodeBlock {
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+  margin: auto;
+  height: fit-content;
+  top: 10%;
 }
 
 .profile {
   color: white;
-  float: right;
   width: 50%;
   padding-top: 50px;
-
 }
 
 .profilePicture {
@@ -226,16 +348,16 @@ a:hover {
 }
 
 .myTitle {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
 .myName {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .articleHeader {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .secPara {
@@ -278,12 +400,14 @@ p {
   color: white;
 }
 
-.nav:hover { color: brown }
+.nav:hover {
+  color: brown;
+}
 
 .contactForm {
   background-color: #fff;
   color: #fff;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .contactContainer {
@@ -309,16 +433,17 @@ p {
 .enquiryText {
   text-align: center;
   font-size: 18pt;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .textarea {
   width: 90%;
   height: 80px;
-  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
   margin: 10px;
   border-color: black;
-  border-radius: .5em;
+  border-radius: 0.5em;
   border-collapse: collapse;
   padding: 8px;
 }
@@ -330,18 +455,42 @@ p {
 .submitBTN {
   background-color: black;
   color: white;
-  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
   font-style: 16px;
-  border-radius: .5em;
+  border-radius: 0.5em;
   width: 100px;
   height: 40px;
   outline: none;
+  font-size: 11pt;
+  font-weight: bold;
   border-style: none;
   font-style: normal;
-  margin: 1em auto; 
+  margin: 0 auto;
 }
 
-.submitBTN :hover { cursor: pointer }
+.submitBTN:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.uploadBtn {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+  width: 80px;
+  height: 27px;
+}
+
+.uploadGroup {
+  margin: 0 auto;
+}
 
 .inputGroup {
   margin: 5px;
@@ -364,7 +513,7 @@ p {
 
 .servContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   margin: 1.5em;
 }
@@ -385,6 +534,8 @@ p {
 
 .serviceItem :hover {
   cursor: pointer;
+  background-color: rgb(104, 28, 28);
+  color: white;
 }
 
 .line {
@@ -405,6 +556,15 @@ p {
   font-size: 20pt;
   text-align: center;
   margin: 0.2em;
-  font-family: 'Times New Roman', Times, serif;
-  
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sectionHeader {
+  margin: 15em;
+}
+
+@media screen and (min-width) {
+  .nav {
+    display: ;
+  }
 }
