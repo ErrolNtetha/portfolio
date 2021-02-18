@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { FaSearch } from "react-icons/fa"
 import "../App.css";
 import "../Mobile.css";
 
@@ -18,15 +19,17 @@ export default class Header extends Component {
       <div className="headerContainer">
         <nav className="header">
           <img className="logo" alt="logo" src="./not.png" />
-          <div>
+          <div className="mobileHeader">
             <h2 style={{ margin: "0" }} className="myName">
               {" "}
               Mphumeleli Ntetha{" "}
             </h2>
             <h6 className="country" style={{ margin: "-6px 0 0 0", float: "right" }}> South Africa </h6>
+           
           </div>
+           <FaSearch className="searchBar" style={{float: "right"}} />  
           <ul className="navLink">
-            <li className="nav" id={window.location.pathname === "about" ? "active" : ""}>
+            <li className="nav" id={window.location.pathname === "/" ? "active" : ""}>
               <Link to="/"> Home </Link>
             </li>
             <li className="nav">

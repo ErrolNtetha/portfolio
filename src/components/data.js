@@ -32,7 +32,7 @@ const service = [
 const blogs = [
     {
         author: "Mphumeleli Ntetha",
-        subject: "The Journey to Becoming a Programmer",
+        subject: "My Journey to Becoming a Programmer",
         post: "Eiusmod qui ullamco consectetur commodo fugiat nulla veniam esse sunt cillum nisi dolor magna ex. Qui irure aute quis tempor minim laboris sunt cupidatat labore exercitation. Consectetur cupidatat sunt cillum consequat labore magna irure mollit minim id tempor pariatur. Ex irure nisi sunt veniam amet occaecat tempor aute pariatur nostrud duis magna. Excepteur est consectetur aliquip reprehenderit cupidatat laborum culpa nulla. Excepteur laboris in commodo dolor et sit anim reprehenderit cupidatat eu eiusmod sunt do aliqua. Aliquip id fugiat Lorem qui tempor ea et Lorem amet incididunt cupidatat.",
         img: "",
         date: new Date(),
@@ -40,4 +40,9 @@ const blogs = [
     },
 ]
 
-module.exports = { service, blogs };
+const about = {
+        title: "Get to knowing Mphumeleli Ntetha",
+        paragraph: "This is a paragraph of about section.",
+    }
+
+module.exports = { service, blogs, about };

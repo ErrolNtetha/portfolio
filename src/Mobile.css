@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  .navLink {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    min-height: 10vh;
+    justify-content: space-evenly;
+  }
+
+  .getRequest {
+    display: none;
+  }
+
+  .headerContainer {
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    min-height: 5vh;
+  }
+
+  .mobileHeader {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 10px;
+  }
+
+  .myName {
+    font-size: 1.2rem;
+  }
+
+  .country {
+    display: none;
+  }
+
+  .profile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .searchBar {
+    display: none;
+  }
+}

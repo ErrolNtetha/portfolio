@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { post } from "axios";
 
 export default class About extends Component {
   constructor(props) {
@@ -14,12 +15,12 @@ export default class About extends Component {
     e.preventDefault();
 
     this.setState({
-      firstname: e.target.firstName.value,
-      lastname: e.target.lastname.value,
-    });
+      firstname: e.target.value,
+      lastname: e.target.value
+    })
 
     console.log(this.state.firstname);
-    console.log(this.state.lastname);
+     console.log(this.state.lastname);
   };
 
   render() {

@@ -25,6 +25,9 @@ nav {
   min-height: 5vh;
   list-style: none;
   width: 30%;
+  position: sticky;
+  top: 0px;
+  
 }
 
 li:hover {
@@ -103,13 +106,15 @@ li:hover {
   color: rgba(51, 206, 245, 0.904);
 }
 
-p,
 h2 {
   margin: 10px;
 }
 
 .headerContainer {
   margin-bottom: 15px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
 }
 
 body {
@@ -156,8 +161,8 @@ body {
 
 .getRequest:hover {
   cursor: pointer;
-  color: white;
-  background-color: purple;
+  color: black;
+  background-color: white;
   border-width: 2px;
   border-style: none;
 }
@@ -280,6 +285,7 @@ a {
 
 a:hover {
   color: #ff4500;
+  cursor: pointer;
 }
 
 .footer {
@@ -299,11 +305,8 @@ a:hover {
   text-align: center;
 }
 
-.skillContainer {
-  position: relative;
-  display: flex;
-  justify-items: center;
-  margin: 50px;
+.footContainer {
+  position: absolute;
 }
 
 .nodeBlock {
@@ -362,10 +365,6 @@ a:hover {
 
 .secPara {
   padding-top: 20px;
-}
-
-p {
-  shape-outside: circle(50%, 50%, 50%);
 }
 
 .linkedIn {
@@ -563,8 +562,53 @@ p {
   margin: 15em;
 }
 
-@media screen and (min-width) {
-  .nav {
-    display: ;
-  }
+.blogsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.blogItem {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+#active {
+  color: black;
+}
+
+.skillContainer {
+  padding: 20px;
+}
+
+.skillItem h1 {
+  text-align: center;
+  color: white;
+  border-bottom: white;
+  border-width: 10px;
+  border: white;
+}
+
+.skillSection {
+  background-color: rgb(24, 23, 23);
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 4px;
+  color: white;
+}
+
+.aboutMyself {
+  color: white;
+  text-align: center;
+  margin: 150px;
+}
+
+.skillNode {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
 }
