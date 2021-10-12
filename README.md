@@ -2,7 +2,7 @@ This website is built in ReactJS.
 
 # Getting started
 You can clone this to your matchine:
-```git clone repoLink``` then into it:
+```git clone https://github.com/ErrolNtetha/portfolio.git``` then into it:
 ```cd portfilio```. Depending on your package installer, if you're using npm:
 ```npm install``` or if using yarn: ```yarn install```.
 Then you can start the project on: 
@@ -11,7 +11,7 @@ Then you can start the project on:
 
 # What to expect 
 The website is not mobile responsive
-The links are not working on the future, "Social" and "Resources". It was for demonstration purposes. 
+The links are not working on the footer, "Social" and "Resources". It was for demonstration purposes. 
 Form in the contact tab is not functional as well.
 
 # Just a Little Story
