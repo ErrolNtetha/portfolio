@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is built in ReactJS. 
 
-## Available Scripts
+# Getting started
+You can clone this to your matchine:
+```git clone https://github.com/ErrolNtetha/portfolio.git``` then into it:
+```cd portfilio```. Depending on your package installer, if you're using npm:
+```npm install``` or if using yarn: ```yarn install```.
+Then you can start the project on: 
+```npm start``` or ```yarn start```
 
-In the project directory, you can run:
 
-### `npm start`
+# What to expect 
+The website is not mobile responsive
+The links are not working on the footer, "Social" and "Resources". It was for demonstration purposes. 
+Form in the contact tab is not functional as well.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Just a Little Story
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I think any developer can relate to those days when you feel fired up and excited to begin a new project, then you work on it instantly, and then in the middle of it all you start putting less and less effort than you did at the beginning. A new framework or idea has captured your attention, and you feel tempted to start working on it. Guess what? You do just that. You get started with another project and with the last one left unfinished. The process goes on and on and on. 
 
-### `npm test`
+This is the website i thought will be my portfolio site where i host my work and progress. I build this website a year ago, 2020, when i was getting my feet wet on the ReactJS library. 
+I felt so excited going into it, and then because learning new stuff is joy for me, i kept coming up with much more "seem-to-be" interesting ideas and stuff, then i just got started and had to abandoned this website but with the hope of returning to it soon, and as you can relate, i didn't. But though, one of the biggest reason i had to take a small break from coding was really my exams which were about to take place later in that month.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is my portfolio website i tried creating last year when i was transitioning to Web Development after i have worked with Graphic Design work for months. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+It all started with learning HTML and CSS then React a little bit. During the days of learning HTML and CSS it felt good and became a hobby that i would hit the keyboard coding through the night and not regretting anything. I started to enjoy programming more than any career i have ever came to know. It went on and on until i got into it which made me even more curious to learn a Library like React. At that time, i was using classes as yu might noticed it classed-based. Then now i am learning Hooks because i found them to be much more comprehensive than classes.
