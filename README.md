@@ -1,12 +1,25 @@
-This website is built in ReactJS. 
+Website Preview:
+<img src="https://github.com/ErrolNtetha/portfolio/blob/master/src/portfolio.png" alt="portfolio screenshot" />
 
 # Getting started
 You can clone this to your matchine:
-```git clone https://github.com/ErrolNtetha/portfolio.git``` then into it:
-```cd portfilio```. Depending on your package installer, if you're using npm:
-```npm install``` or if using yarn: ```yarn install```.
+```
+git clone https://github.com/ErrolNtetha/portfolio.git
+``` 
+then into it:
+```
+cd portfilio
+```
+Depending on your package installer, if you're using npm:
+```
+npm install
+``` 
+or if using yarn: 
+```
+yarn install
+```
 Then you can start the project on: 
-```npm start``` or ```yarn start```
+`npm start`  or `yarn start`
 
 
 # What to expect 
