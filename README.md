@@ -1,4 +1,6 @@
 Website Preview: https://wizardly-johnson-6fb6af.netlify.app/
+
+
 <img src="https://github.com/ErrolNtetha/portfolio/blob/master/src/portfolio.png" alt="portfolio screenshot" />
 
 # Getting started
